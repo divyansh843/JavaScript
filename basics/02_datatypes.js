@@ -43,6 +43,27 @@ console.log(heros);
 console.log(obj);
 
 
+// stack memory(Primitive) => copy , heap memory(Non-Primitive) => referance of original
+
+let youtube = "Divyansh.youtube"
+let youtube2 = youtube;
+youtube2 = "Div.youtube";
+
+console.log(youtube);
+console.log(youtube2);
+
+
+let userone = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userone;
+usertwo.email = "Divyanshgmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
 
 
 
