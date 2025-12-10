@@ -25,6 +25,8 @@ let state = null;
 // object
 // arrays
 
+console.log(typeof("Divyansh"));
+
 console.log(typeof "Divyansh");
 console.log(typeof null);
 console.log(typeof undefined);
