@@ -21,15 +21,27 @@ let state = null;
 // undefined => 
 // symbol => unique
 
-// non-primitive
-// object
-// arrays
 
 console.log(typeof("Divyansh"));
 
 console.log(typeof "Divyansh");
 console.log(typeof null);
 console.log(typeof undefined);
+
+// non-primitive
+// object
+// arrays
+
+let heros = ["Divyansh", "ironman", "thor"];
+
+let obj = {
+    name: "Divyansh",
+    age: 21
+}
+
+console.log(heros);
+console.log(obj);
+
 
 
 
