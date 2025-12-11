@@ -45,8 +45,3 @@ console.log(myn2);
 console.log("C", myArr);
 
 
-
-
-
-
-
