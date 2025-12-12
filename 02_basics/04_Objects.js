@@ -49,6 +49,14 @@ console.log(Object.entries(App));
 
 console.log(App.hasOwnProperty("isloggin"));
 
+//Destructuring
 
+const course = {
+    coursename: "js",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
 
+const {courseInstructor: teacher} = course
+console.log(teacher);
 
